@@ -18,6 +18,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+/** BACK TO HOME */
+Route::get('/',function()
+{
+    return redirect('../');
+});
+
 /** FEAR GREED INDEX API ROUTE */
 Route::get('feargreedindex','App\Http\Controllers\FearGreedIndexController@getFearGreedIndex');
 Route::get('feargreedindex/{data}','App\Http\Controllers\FearGreedIndexController@getFearGreedIndex');
