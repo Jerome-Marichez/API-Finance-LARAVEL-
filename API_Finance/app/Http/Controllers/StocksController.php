@@ -16,12 +16,12 @@ class StocksController extends Controller
     }
 
 
-    public function getStocks($data)
+    public function getStocks($ticker)
     {
         error_reporting(0);
 
         // scraping stuff
-        $page = file_get_contents('https://fr.finance.yahoo.com/quote/' . $data . '');
+        $page = file_get_contents('https://fr.finance.yahoo.com/quote/'.$ticker);
         $ID_Element = 'quote-header-info';
         $string1_price = 'data-reactid="32">';
         $string3_percentage = 'data-reactid="33">';
@@ -41,14 +41,14 @@ class StocksController extends Controller
 
         // Check if Tickers is accurate and found if not show error else resume operation and return details
         if (strlen($result) > 30) {
-            return response()->json(['ticker' => $data, 'price' => '', 'percentage' => '', 'status' => 'Error bad ticket or not found'], 400);
+            return response()->json(['ticker' => $ticker, 'price' => '', 'percentage' => '', 'status' => 'Error bad ticket or not found'], 400);
         } else {
             // Only Split percentage if Tickers exists
             $full_percentage_details = $helper::get_string_between($actif_header, $string3_percentage, $string2);
             $percentage = $helper::get_string_between($full_percentage_details, "(", ")");
 
             return response()->json([
-                'ticker' => $data,
+                'ticker' => $ticker,
                 'price' => $result,
                 'full_percentage_details' => $full_percentage_details,
                 'percentage' => $percentage,

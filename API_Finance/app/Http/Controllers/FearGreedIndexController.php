@@ -24,7 +24,7 @@ class FearGreedIndexController extends Controller
         $json_picture = base64_encode("<img src='http".$result."png'></img>");
         // Return Picture in JSON base encoded
 
-        return response()->json(['picture'=>$json_picture],200);
+        return response()->json(['picture'=>$json_picture,'status'=>'success'],200);
 
     }
 

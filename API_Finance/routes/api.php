@@ -32,6 +32,10 @@ Route::get('feargreedindex/{data}','App\Http\Controllers\FearGreedIndexControlle
 Route::get('stocks','App\Http\Controllers\StocksController@index');
 Route::get('stocks/{data}','App\Http\Controllers\StocksController@getStocks');
 
-/** SENTIMENT INDEX API ROUTE */
-//Route::get('sentiment','App\Http\Controllers\SentimentController@getSentimentIndex');
-//Route::get('sentiment/{data}','App\Http\Controllers\SentimentController@getSentimentIndex');
+
+
+/** SENTIMENT ETORO ROUTE */
+/** ERROR:
+ * CANT ACESS SINCE REJECTED SHOULD LOOK FOR WEB SCRAPPING FROM A TRUE BROWSER
+ * AND INJECT INFORMATION INTO THE DATABASE
+ */
