@@ -18,4 +18,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('sentiment','App\Http\Controllers\SentimentController@getSentiment');
+/** FEAR GREED INDEX API ROUTE */
+Route::get('feargreedindex','App\Http\Controllers\FearGreedIndexController@getFearGreedIndex');
+Route::get('feargreedindex/{data}','App\Http\Controllers\FearGreedIndexController@getFearGreedIndex');
+
+/** STOCK API ROUTE  */
+Route::get('stocks','App\Http\Controllers\StocksController@index');
+Route::get('stocks/{data}','App\Http\Controllers\StocksController@getStocks');
+
+/** SENTIMENT INDEX API ROUTE */
+//Route::get('sentiment','App\Http\Controllers\SentimentController@getSentimentIndex');
+//Route::get('sentiment/{data}','App\Http\Controllers\SentimentController@getSentimentIndex');
