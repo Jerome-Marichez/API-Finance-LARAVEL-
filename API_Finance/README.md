@@ -12,7 +12,13 @@ Le projet utilise exclusivement le framework Laravel et PHP 8 comme outil pour l
 
 ## About API Finance
 
-API finance was created with the aim of offering a finance API allowing to obtain real time information on financial assets.
+API finance was created with the aim of providing a finance API to obtain real time information on financial assets. It currently offers the following 3 methods:
+
+-> 
+-> 
+->
+
+The project uses exclusively the Laravel framework and PHP 8 as a tool for development.
 
 
 ## Contact
