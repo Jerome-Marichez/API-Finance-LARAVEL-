@@ -8,7 +8,7 @@ Il propose à l'heure actuel les 3 méthodes suivantes:
 ->
 ->
 
-Le projet utilise exclusivement Laravel et PHP 8 comme outil pour le développement.
+Le projet utilise exclusivement le framework Laravel et PHP 8 comme outil pour le développement.
 
 
 ## About API Finance
