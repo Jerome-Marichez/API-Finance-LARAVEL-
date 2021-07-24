@@ -100,7 +100,7 @@
                   <h5 class="white-text">Contact</h5>
                   <ul>
                     <li><a class="grey-text text-lighten-3" href="https://github.com/digitstudio">Github: <b>https://github.com/digitstudio</b></a></li>
-                    <li><a class="grey-text text-lighten-3" href="email:jeromemarichez@ik.me">Email: <b>jeromemarichez@ik.me</b></a></li>
+                    <li><a class="grey-text text-lighten-3" href="email:jeromemarichez@ik.me">Email: <b>admin@digitstudio.fr</b></a></li>
                     <li><a class="grey-text text-lighten-3" href="tel:0771651588">Contact Number: <b>0771651588</b></a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Discord: <b>NanoPips#9964</b></a></li>
                   </ul>
