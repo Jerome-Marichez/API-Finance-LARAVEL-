@@ -3,6 +3,7 @@
 API finance à été crée dans le but de proposer une API de finance permettant d'obtenir des informations en temps réels sur les actifs financiers.
 Il propose à l'heure actuel les 3 méthodes suivantes: 
 
+<a href="https://ibb.co/MPqtmbY"><img src="https://i.ibb.co/8PFfHJW/API-Finance.jpg" alt="API-Finance" border="0"></a>
 ->
 ->
 ->
