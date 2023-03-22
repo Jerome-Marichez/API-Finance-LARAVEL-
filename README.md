@@ -21,10 +21,6 @@ API finance was created with the aim of providing a finance API to obtain real t
 The project uses exclusively the Laravel framework and PHP 8 as a tool for development.
 
 
-## Contact
-
-You can contact me by send email to admin@digitstudio.fr or by submit a contact form to https://digitstudio.fr 
-
 ## License
 
 The API Finance is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
