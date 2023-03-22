@@ -14,8 +14,8 @@ Le projet utilise exclusivement le framework Laravel et PHP 8 comme outil pour l
 
 API finance was created with the aim of providing a finance API to obtain real time information on financial assets. It currently offers the following 2 methods:
 
-/api/stocks/{ticker}
-/api/feargreedindex/
+- /api/stocks/{ticker}
+- /api/feargreedindex/
 
 
 The project uses exclusively the Laravel framework and PHP 8 as a tool for development.
