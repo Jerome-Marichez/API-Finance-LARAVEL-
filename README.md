@@ -2,8 +2,8 @@
 ## A propos d'API Finance
 API Finance a été créée dans le but de proposer une API financière permettant d'obtenir en temps réel des informations sur les actifs financiers. À l'heure actuelle, il propose les deux méthodes suivantes :
 
-/api/stocks/{ticker}
-/api/feargreedindex/
+- /api/stocks/{ticker}
+- /api/feargreedindex/
 
 <a href="https://ibb.co/rxkcZ5B"><img src="https://i.ibb.co/m9JXHhn/API-XX.png" alt="API-XX" border="0"></a>
 
